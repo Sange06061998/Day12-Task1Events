@@ -1,0 +1,55 @@
+.{
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  
+  .column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px; 
+  }
+  .container{
+    width: 1000px;
+    height: 500px;
+    border: 2px solid black;
+    padding: 20px;
+  }
+  .design{
+    color: black;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+  }
+  .largebox{
+    width: 900px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 20px;
+
+  }
+  .smallbox{
+    width: 120px;
+    height: 220px;
+    border: 2px solid black;
+    padding: 10px;
+
+  }
+  .circle{
+    width: 50px;
+    height: 75px;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 40px;
+
+  }
+  label{
+    display: inline-block;
+  width: 140px;
+    margin-right: 20px;
+  }
